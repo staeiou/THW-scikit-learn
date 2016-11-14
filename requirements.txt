@@ -1,5 +1,5 @@
 scikit-learn==0.18.1
-autosklearn
+auto-sklearn
 tpot
 numpy
 pandas
