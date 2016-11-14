@@ -8,5 +8,5 @@ RUN apt-get update && \
     apt-get -y install gcc mono-mcs && \
     rm -rf /var/lib/apt/lists/*
 
-ADD requirements.txt /
+RUN wget https://github.com/henchc/THW-scikit-learn/blob/master/requirements.txt
 RUN pip install -r requirements.txt
