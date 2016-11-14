@@ -1,3 +1,7 @@
+from andrewosh/binder-base
+
+user root
+
 FROM ubuntu
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
