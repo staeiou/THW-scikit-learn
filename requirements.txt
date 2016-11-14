@@ -1,2 +1,5 @@
 scikit-learn==0.18.1
 autosklearn
+tpot
+numpy
+pandas
